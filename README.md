@@ -5,6 +5,7 @@
 Este repositório contém o resumo dos principais temas abordados nos cursos iniciais da trilha de Fundamentos do Microsoft Azure (AZ-900) na DIO.
 O objetivo é consolidar os conhecimentos sobre Computação em Nuvem, Azure, Git/GitHub e construção de portfólio, formando uma base sólida para certificações e projetos práticos.
 
+
 ☁️ 1. Introdução ao Azure Essentials com a Microsoft
 
 O Azure é a plataforma de computação em nuvem da Microsoft, oferecendo serviços como:
@@ -16,11 +17,14 @@ O Azure é a plataforma de computação em nuvem da Microsoft, oferecendo servi�
 - Inteligência Artificial
 - Segurança e Governança
 
+
 🔹 Principais Conceitos
+
 
 🔸 O que é Computação em Nuvem?
 
 É a entrega de serviços de TI sob demanda pela internet, com pagamento conforme o uso.
+
 
 🔸 Modelos de Nuvem
 
@@ -28,11 +32,13 @@ O Azure é a plataforma de computação em nuvem da Microsoft, oferecendo servi�
 - Nuvem Privada – Infraestrutura exclusiva de uma organização
 - Nuvem Híbrida – Combinação de pública e privada
 
+
 🔸 Modelos de Serviço
 
 - IaaS (Infrastructure as a Service) – Infraestrutura como serviço
 - PaaS (Platform as a Service) – Plataforma como serviço
 - SaaS (Software as a Service) – Software como serviço
+
 
 🔸 Benefícios da Nuvem
 
@@ -43,9 +49,11 @@ O Azure é a plataforma de computação em nuvem da Microsoft, oferecendo servi�
 - Elasticidade
 - Modelo pay-as-you-go
 
+
 🌎 2. Introdução à Computação em Nuvem
 
 A computação em nuvem revolucionou a forma como empresas utilizam tecnologia.
+
 
 🔹 Características Fundamentais
 
@@ -55,6 +63,7 @@ A computação em nuvem revolucionou a forma como empresas utilizam tecnologia.
 - Elasticidade rápida
 - Serviço mensurável
 
+
 🔹 CapEx vs OpEx
 
 - CapEx (Capital Expenditure) → Investimento inicial em infraestrutura
@@ -62,9 +71,11 @@ A computação em nuvem revolucionou a forma como empresas utilizam tecnologia.
 
 A nuvem transforma custos fixos (CapEx) em custos variáveis (OpEx).
 
+
 🧩 3. Versionamento de Código com Git e GitHub
 
 O versionamento é essencial para controle, colaboração e rastreabilidade de projetos.
+
 
 🔹 Git
 
@@ -85,6 +96,7 @@ git pull
 git branch
 git merge
 
+
 🔹 GitHub
 
 Plataforma baseada em Git que permite:
@@ -95,6 +107,7 @@ Plataforma baseada em Git que permite:
 - Issues
 - Colaboração em projetos open source
 
+
 🏆 4. Desafios de Projetos – Criando um Portfólio Vencedor
 
 Ter um portfólio técnico demonstra:
@@ -103,6 +116,7 @@ Ter um portfólio técnico demonstra:
 - Organização
 - Capacidade de documentação
 - Domínio de ferramentas
+
 
 🔹 Boas práticas para portfólio
 
@@ -113,6 +127,7 @@ Ter um portfólio técnico demonstra:
 - Prints ou diagramas
 - Organização do código
 
+
 🌍 5. Contribuindo em um Projeto Open Source no GitHub
 
 Contribuir com projetos open source permite:
@@ -122,6 +137,7 @@ Contribuir com projetos open source permite:
 - Melhorar habilidades técnicas
 - Construir reputação profissional
 
+
 🔹 Fluxo básico de contribuição
 
 1. Fork do repositório
@@ -129,6 +145,7 @@ Contribuir com projetos open source permite:
 3. Fazer alterações
 4. Commit
 5. Pull Request
+
 
 🤖 6. Introdução Prática ao Azure AI e Azure OpenAI
 
@@ -139,6 +156,7 @@ O Azure oferece serviços de Inteligência Artificial como:
 - Cognitive Services
 - Serviços de visão computacional
 - Processamento de linguagem natural
+
 
 🔹 Azure OpenAI
 
@@ -152,6 +170,8 @@ Permite integração de modelos de IA para:
 
 A IA no Azure permite criar soluções escaláveis, seguras e integradas ao ambiente corporativo.
 
+
+
 🎯 Conclusão
 
 A trilha inicial da DIO proporciona uma base sólida em:
@@ -164,6 +184,8 @@ A trilha inicial da DIO proporciona uma base sólida em:
 - Fundamentos de Inteligência Artificial no Azure
 
 Esses conhecimentos são essenciais para quem deseja evoluir na área de tecnologia e conquistar certificações como a AZ-900 – Microsoft Azure Fundamentals.
+
+
 
 📌 Autor
 
