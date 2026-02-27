@@ -1,0 +1,156 @@
+# ☁️ Desafio DIO – Benefícios da Nuvem Azure
+
+## 📌 Objetivo
+
+Este repositório tem como objetivo documentar os conhecimentos adquiridos no módulo **Benefícios da Nuvem Azure**, da trilha de Fundamentos Microsoft Azure (AZ-900) na DIO.
+
+O foco deste módulo foi compreender os principais benefícios da computação em nuvem dentro do ecossistema Azure e como esses conceitos impactam empresas e profissionais de tecnologia.
+
+---
+
+# 🚀 1. Benefícios da Nuvem Azure
+
+A computação em nuvem permite que empresas utilizem recursos computacionais sob demanda, sem necessidade de infraestrutura física própria.
+
+O Microsoft Azure oferece diversos benefícios estratégicos, como:
+
+- Escalabilidade
+- Elasticidade
+- Confiabilidade
+- Previsibilidade
+- Segurança
+- Governança
+- Gerenciabilidade
+
+Esses benefícios tornam a nuvem uma solução eficiente, flexível e economicamente viável.
+
+---
+
+# 📈 2. Escalabilidade e Elasticidade
+
+## 🔹 Escalabilidade
+
+Escalabilidade é a capacidade de aumentar ou diminuir recursos conforme a necessidade da aplicação.
+
+Exemplo:
+- Aumentar memória ou CPU de uma máquina virtual.
+- Adicionar mais instâncias para suportar maior volume de usuários.
+
+Ela pode ser:
+- **Vertical** → aumentar recursos da própria máquina.
+- **Horizontal** → adicionar mais máquinas/instâncias.
+
+## 🔹 Elasticidade
+
+Elasticidade é a capacidade de ajustar automaticamente os recursos de acordo com a demanda em tempo real.
+
+Exemplo:
+- Um e-commerce que aumenta recursos em períodos de alta demanda (Black Friday) e reduz após o evento.
+
+📌 Diferença principal:
+- Escalabilidade pode ser planejada.
+- Elasticidade é ajuste automático e dinâmico.
+
+---
+
+# 🔒 3. Confiabilidade, Previsibilidade e Segurança
+
+## 🔹 Confiabilidade
+
+A confiabilidade está relacionada à alta disponibilidade e tolerância a falhas.
+
+O Azure possui:
+- Data centers distribuídos globalmente
+- Redundância de dados
+- SLA (Service Level Agreement)
+
+Isso garante que aplicações continuem funcionando mesmo diante de falhas.
+
+---
+
+## 🔹 Previsibilidade
+
+A previsibilidade permite estimar custos e desempenho com base em métricas claras.
+
+No Azure:
+- Modelo Pay-as-you-go
+- Ferramentas de estimativa de custo
+- Monitoramento de consumo
+
+Isso ajuda empresas a manter controle financeiro e técnico.
+
+---
+
+## 🔹 Segurança
+
+A segurança é um dos pilares da nuvem Azure.
+
+Inclui:
+- Controle de acesso (IAM)
+- Criptografia de dados
+- Firewall e regras de rede
+- Monitoramento e conformidade
+
+A Microsoft investe fortemente em segurança física e digital de seus datacenters.
+
+---
+
+# 🏛️ 4. Governança e Gerenciabilidade
+
+## 🔹 Governança
+
+Governança refere-se ao controle e organização dos recursos na nuvem.
+
+No Azure, isso é feito através de:
+- Resource Groups
+- Políticas (Azure Policy)
+- Tags
+- Controle de acesso baseado em função (RBAC)
+
+A governança garante organização, padronização e controle de custos.
+
+---
+
+## 🔹 Gerenciabilidade
+
+Gerenciabilidade é a capacidade de administrar e monitorar recursos com facilidade.
+
+Ferramentas disponíveis:
+- Azure Portal
+- Azure CLI
+- Azure PowerShell
+- Monitoramento e Logs
+- Alertas automáticos
+
+Isso permite administrar ambientes de forma centralizada e eficiente.
+
+---
+
+# 🔎 5. Revisão Geral do Módulo
+
+Durante este módulo, aprendi que os principais benefícios da nuvem Azure envolvem:
+
+✔ Flexibilidade para crescer conforme a demanda  
+✔ Redução de custos com infraestrutura física  
+✔ Alta disponibilidade e redundância  
+✔ Segurança robusta  
+✔ Controle e organização de recursos  
+✔ Monitoramento e gerenciamento simplificados  
+
+Esses conceitos são fundamentais para a certificação **AZ-900 – Microsoft Azure Fundamentals** e formam a base para utilização prática do Azure.
+
+---
+
+# 🎯 Conclusão
+
+O módulo “Benefícios da Nuvem Azure” demonstra como a computação em nuvem não é apenas uma tendência tecnológica, mas uma estratégia essencial para empresas que buscam escalabilidade, segurança e eficiência operacional.
+
+A compreensão desses pilares é essencial para profissionais que desejam atuar com Cloud Computing e soluções Microsoft Azure.
+
+---
+
+# 👨‍💻 Autor
+
+Joel Ferreira  
+Estudante da trilha Microsoft Azure – DIO  
+Preparação para AZ-900 🚀
