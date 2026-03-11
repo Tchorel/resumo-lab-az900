@@ -1,0 +1,165 @@
+# Desafio DIO – Configuração de uma Instância de Banco de Dados na Azure
+
+## Objetivo do Desafio
+
+Este repositório foi criado como parte do laboratório da DIO com o objetivo de documentar os aprendizados sobre o processo de configuração de uma instância de Banco de Dados na plataforma Microsoft Azure.
+
+A proposta deste desafio é consolidar os conhecimentos adquiridos nas aulas, registrando de forma clara e estruturada os conceitos, etapas, observações e boas práticas relacionadas ao uso de serviços de banco de dados no Azure.
+
+---
+
+## O que é um Banco de Dados na Azure?
+
+A Microsoft Azure oferece serviços de banco de dados em nuvem que permitem criar, gerenciar e escalar bases de dados sem a necessidade de administrar toda a infraestrutura física manualmente.
+
+Entre os principais benefícios estão:
+
+- alta disponibilidade
+- escalabilidade sob demanda
+- segurança integrada
+- backup automático
+- monitoramento
+- redução de esforço operacional
+
+No contexto do desafio, o foco está no entendimento da configuração de uma instância de banco de dados na Azure, compreendendo seus componentes principais e suas opções de gerenciamento.
+
+---
+
+## Principais Conceitos Aprendidos
+
+### 1. Serviço gerenciado de banco de dados
+
+No Azure, é possível utilizar bancos de dados como serviço gerenciado. Isso significa que a Microsoft cuida de grande parte da infraestrutura, atualizações, disponibilidade e manutenção da plataforma.
+
+Esse modelo permite que o profissional foque mais na estrutura dos dados, segurança, performance e uso da solução, em vez de administrar servidores manualmente.
+
+---
+
+### 2. Azure SQL Database
+
+O Azure SQL Database é um serviço de banco de dados relacional baseado no Microsoft SQL Server, porém disponibilizado em nuvem como serviço gerenciado.
+
+Com ele, é possível:
+
+- criar bancos de dados rapidamente
+- configurar acesso de forma controlada
+- escalar recursos conforme a necessidade
+- contar com backup e recuperação automáticos
+- utilizar recursos nativos de segurança e monitoramento
+
+---
+
+### 3. Instância Gerenciada
+
+A instância gerenciada é uma opção mais próxima de um ambiente tradicional do SQL Server, porém hospedada e administrada pela Azure.
+
+Ela é indicada para cenários que exigem maior compatibilidade com recursos do SQL Server, facilitando migrações de ambientes on-premises para a nuvem.
+
+---
+
+### 4. Segurança
+
+A segurança é um dos pilares centrais no uso de bancos de dados na Azure. Entre os recursos importantes, destacam-se:
+
+- controle de acesso
+- autenticação
+- regras de firewall
+- criptografia
+- monitoramento
+- políticas de conformidade
+
+Esses recursos ajudam a proteger os dados contra acessos indevidos e garantem maior confiabilidade ao ambiente.
+
+---
+
+### 5. Escalabilidade e disponibilidade
+
+Uma das grandes vantagens do banco de dados em nuvem é a possibilidade de aumentar ou reduzir recursos conforme a demanda.
+
+Além disso, os serviços da Azure oferecem mecanismos de redundância, backup e alta disponibilidade, permitindo maior resiliência do ambiente.
+
+---
+
+## Etapas Gerais para Configuração de uma Instância de Banco de Dados na Azure
+
+Durante o estudo do laboratório, foi possível compreender que a criação de uma instância de banco na Azure segue, de forma geral, as etapas abaixo:
+
+1. Acessar o portal da Microsoft Azure  
+2. Selecionar o serviço de banco de dados desejado  
+3. Definir assinatura e grupo de recursos  
+4. Informar nome da instância ou banco de dados  
+5. Configurar servidor lógico  
+6. Definir usuário administrador e método de autenticação  
+7. Escolher camada de desempenho e capacidade  
+8. Configurar rede e regras de acesso  
+9. Revisar as configurações  
+10. Criar o recurso  
+
+Essas etapas mostram como a Azure organiza a criação de recursos de forma guiada, facilitando o processo para diferentes perfis de usuários.
+
+---
+
+## Recursos Importantes Observados
+
+Durante o estudo, alguns recursos e conceitos se destacam no processo de configuração:
+
+### Grupo de Recursos
+Permite organizar os recursos relacionados ao projeto em um mesmo container lógico, facilitando gerenciamento, controle e exclusão.
+
+### Servidor Lógico
+No Azure SQL, o servidor lógico funciona como estrutura administrativa que agrupa bancos e centraliza configurações como login, firewall e acesso.
+
+### Firewall
+As regras de firewall definem quais IPs ou redes podem acessar o banco, sendo uma camada fundamental de proteção.
+
+### Autenticação
+Pode envolver usuário e senha, além de integrações com recursos de identidade da Microsoft.
+
+### Monitoramento
+A Azure oferece ferramentas de monitoramento para acompanhar consumo, performance, disponibilidade e eventos do ambiente.
+
+---
+
+## Boas Práticas
+
+Algumas boas práticas importantes no uso de banco de dados na Azure são:
+
+- utilizar senhas fortes
+- restringir acessos por IP sempre que possível
+- revisar regras de firewall
+- acompanhar consumo para evitar custos desnecessários
+- organizar recursos com nomes padronizados
+- utilizar monitoramento para identificar falhas ou gargalos
+- conhecer a camada de serviço escolhida antes da criação
+
+Essas práticas ajudam a construir um ambiente mais seguro, eficiente e bem administrado.
+
+---
+
+## Aprendizados Obtidos
+
+Com este desafio, foi possível consolidar conhecimentos importantes sobre o uso de banco de dados na Azure, especialmente:
+
+- entendimento do conceito de banco gerenciado em nuvem
+- conhecimento das etapas de criação e configuração
+- importância da segurança e controle de acesso
+- noção de escalabilidade e disponibilidade
+- organização técnica da documentação no GitHub
+
+Além disso, o exercício reforça a importância de transformar conteúdo estudado em documentação prática, facilitando revisões futuras e servindo como material de apoio para novos laboratórios.
+
+---
+
+## Conclusão
+
+O estudo sobre configuração de uma instância de banco de dados na Microsoft Azure mostra como a computação em nuvem simplifica tarefas de infraestrutura e entrega recursos robustos para gestão de dados.
+
+A Azure oferece uma abordagem moderna, escalável e segura para serviços de banco de dados, permitindo que profissionais de tecnologia trabalhem com mais agilidade, governança e confiabilidade.
+
+Esse desafio foi importante para fortalecer a base de conhecimentos em cloud e ampliar a compreensão sobre como bancos de dados podem ser provisionados e administrados dentro do ecossistema Azure.
+
+---
+
+## Autor
+
+Joel Ferreira
