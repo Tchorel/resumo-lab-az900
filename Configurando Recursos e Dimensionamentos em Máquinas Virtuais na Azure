@@ -1,0 +1,291 @@
+# ☁️ Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure
+
+## 📌 Objetivo
+
+Este documento tem como objetivo consolidar os conhecimentos adquiridos sobre Computação e Rede no Microsoft Azure, abordando conceitos fundamentais relacionados a Máquinas Virtuais, disponibilidade, containers, serviços de aplicação e Azure Functions.
+
+Os tópicos estudados fazem parte dos fundamentos cobrados na certificação **AZ-900 – Microsoft Azure Fundamentals**.
+
+---
+
+# 🚀 1. Serviços de Computação e Máquinas Virtuais do Azure
+
+## 🔹 O que são Máquinas Virtuais (VMs)
+
+As Máquinas Virtuais do Azure permitem executar sistemas operacionais e aplicações na nuvem sem necessidade de infraestrutura física local.
+
+Uma VM funciona como um computador virtual hospedado dentro da infraestrutura global da Microsoft Azure.
+
+---
+
+## 🔹 Principais características das VMs
+
+- Escalabilidade sob demanda
+- Provisionamento rápido
+- Alta disponibilidade
+- Controle total do sistema operacional
+- Suporte a Windows e Linux
+- Integração com serviços Azure
+
+---
+
+## 🔹 Casos de uso
+
+- Hospedagem de aplicações
+- Ambientes de testes
+- Desenvolvimento
+- Bancos de dados
+- Sistemas corporativos
+- Servidores web
+
+---
+
+## 🔹 Dimensionamento de VMs
+
+No Azure, é possível escolher diferentes tamanhos de máquinas virtuais conforme necessidade de:
+
+- CPU
+- Memória RAM
+- Disco
+- GPU
+- Rede
+
+Exemplos de séries:
+
+| Série | Objetivo |
+|---|---|
+| B-Series | Baixo custo e uso moderado |
+| D-Series | Uso geral |
+| E-Series | Otimizada para memória |
+| F-Series | Otimizada para processamento |
+
+---
+
+## 🔹 Escalabilidade
+
+O Azure permite:
+
+### Escalabilidade Vertical
+Aumentar recursos da VM:
+- mais CPU
+- mais memória
+
+### Escalabilidade Horizontal
+Adicionar múltiplas instâncias da VM para distribuir carga.
+
+---
+
+# 🏢 2. Conjuntos de Disponibilidade de Máquinas Virtuais do Azure
+
+## 🔹 O que é Alta Disponibilidade
+
+Alta disponibilidade garante que aplicações continuem funcionando mesmo em caso de falhas de hardware, manutenção ou interrupções.
+
+---
+
+## 🔹 Availability Sets (Conjuntos de Disponibilidade)
+
+Os Availability Sets distribuem VMs em diferentes grupos físicos dentro do datacenter Azure.
+
+Eles utilizam:
+
+- Fault Domains
+- Update Domains
+
+---
+
+## 🔹 Fault Domains
+
+Representam separação física de infraestrutura:
+- energia
+- rede
+- hardware
+
+Se ocorrer falha física em um domínio, outras VMs continuam funcionando.
+
+---
+
+## 🔹 Update Domains
+
+Garantem que atualizações de manutenção não reiniciem todas as VMs simultaneamente.
+
+---
+
+## 🔹 Benefícios
+
+- Maior disponibilidade
+- Redução de indisponibilidade
+- Melhor resiliência
+- Continuidade operacional
+
+---
+
+# 🐳 3. Área de Trabalho Virtual e Contêineres do Azure
+
+# 🔹 Azure Virtual Desktop (AVD)
+
+O Azure Virtual Desktop permite disponibilizar desktops e aplicações virtualizadas diretamente pela nuvem.
+
+---
+
+## 🔹 Benefícios do AVD
+
+- Acesso remoto seguro
+- Centralização de gerenciamento
+- Escalabilidade
+- Redução de infraestrutura local
+- Trabalho remoto
+
+---
+
+# 🔹 Contêineres no Azure
+
+Contêineres permitem empacotar aplicações e dependências de forma leve e portátil.
+
+---
+
+## 🔹 Principais vantagens
+
+- Inicialização rápida
+- Portabilidade
+- Menor consumo de recursos
+- Facilidade de implantação
+
+---
+
+## 🔹 Serviços relacionados
+
+### Azure Container Instances (ACI)
+Permite executar containers rapidamente sem gerenciar servidores.
+
+### Azure Kubernetes Service (AKS)
+Serviço gerenciado para orquestração de containers Kubernetes.
+
+---
+
+## 🔹 Diferença entre VM e Container
+
+| Máquina Virtual | Container |
+|---|---|
+| Possui sistema operacional completo | Compartilha kernel do host |
+| Mais pesada | Mais leve |
+| Inicialização mais lenta | Inicialização rápida |
+| Maior consumo de recursos | Menor consumo |
+
+---
+
+# ⚙️ 4. Azure Functions e Serviços de Aplicativo do Azure
+
+# 🔹 Azure Functions
+
+Azure Functions é um serviço serverless que executa código sob demanda sem necessidade de gerenciar servidores.
+
+---
+
+## 🔹 Características principais
+
+- Execução baseada em eventos
+- Escalabilidade automática
+- Pagamento por execução
+- Integração com diversos serviços Azure
+
+---
+
+## 🔹 Exemplos de uso
+
+- APIs
+- Automação
+- Processamento de arquivos
+- Integração entre sistemas
+- Rotinas agendadas
+
+---
+
+# 🔹 Azure App Services
+
+Azure App Service é uma plataforma para hospedagem de aplicações web, APIs e backends.
+
+---
+
+## 🔹 Benefícios
+
+- Deploy simplificado
+- Escalabilidade automática
+- Integração CI/CD
+- Monitoramento integrado
+- Suporte múltiplas linguagens
+
+---
+
+## 🔹 Linguagens suportadas
+
+- .NET
+- Java
+- Node.js
+- Python
+- PHP
+
+---
+
+# 🔹 Conceito de Serverless
+
+Serverless significa executar aplicações sem precisar administrar infraestrutura manualmente.
+
+O Azure gerencia:
+- servidores
+- escalabilidade
+- disponibilidade
+- provisionamento
+
+O foco do desenvolvedor fica apenas no código.
+
+---
+
+# 📚 5. Revisão Geral – Computação e Rede
+
+Durante este módulo, foram estudados os principais recursos de computação e serviços relacionados à infraestrutura Azure.
+
+Os conceitos mais importantes para a certificação AZ-900 incluem:
+
+- Máquinas Virtuais
+- Escalabilidade
+- Alta Disponibilidade
+- Availability Sets
+- Containers
+- Kubernetes
+- Azure Virtual Desktop
+- Azure Functions
+- App Services
+- Conceitos Serverless
+
+---
+
+# 🎯 Principais Aprendizados
+
+✔ Criação e dimensionamento de Máquinas Virtuais  
+✔ Conceitos de escalabilidade vertical e horizontal  
+✔ Alta disponibilidade no Azure  
+✔ Uso de Availability Sets  
+✔ Diferença entre VMs e Containers  
+✔ Conceitos de Kubernetes e AKS  
+✔ Funcionamento do Azure Functions  
+✔ Serviços Serverless  
+✔ Hospedagem de aplicações com App Service  
+
+---
+
+# 🧠 Conclusão
+
+Os serviços de Computação e Rede da Azure fornecem recursos modernos, escaláveis e altamente disponíveis para execução de aplicações, infraestrutura e serviços corporativos.
+
+Compreender esses conceitos é fundamental para profissionais que desejam atuar com Cloud Computing e se preparar para a certificação AZ-900.
+
+Além disso, os serviços Azure permitem reduzir custos operacionais, aumentar disponibilidade e acelerar processos de desenvolvimento e implantação.
+
+---
+
+# 👨‍💻 Autor
+
+Joel Ferreira  
+Estudante da trilha Microsoft Azure – DIO  
+Preparação para AZ-900 🚀
